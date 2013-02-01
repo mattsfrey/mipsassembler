@@ -1,0 +1,85 @@
+            CSI 402 -- Notes about Programming Assignment IV
+            ================================================
+
+  Please read the information included in this file carefully and
+follow the directions. Program submissions not conforming to the 
+directions specified below are likely to lose almost all of 
+the credit.
+
+Information concerning makefile:
+--------------------------------
+
+   The makefile that you provide MUST have the name "makefile" 
+(without the double quotes). 
+
+  The makefile MUST have two targets called p4 and clean. (The names
+p4 and clean MUST NOT be changed.)  The first target (p4) must be the
+default. That is, when we run make WITHOUT specifying a target, a file
+called p4 containing the executable version of your program must be
+produced.  When we run make with clean as the target, it should delete
+all the ".o" files and the file named core (if any).
+
+Information Concerning Electronic Submission:
+---------------------------------------------
+
+VERY IMPORTANT NOTES: 
+---------------------
+
+  (0) Make sure that at the top of each of your header files, 
+      C source files and makefile, your first and last name and 
+      your Unix login id are included as comments. 
+
+  (1) To submit your files electronically, you must have the files on 
+      one of the Unix machines (itsunix.albany.edu) supported by 
+      Information Technology Services (ITS) unit of UAlbany. Also, 
+      you must be logged on to one of those machines to actually 
+      carry out the electronic submission. 
+
+  (2) Make sure that your program compiles and produces correct 
+      results on the Unix machines supported by ITS.  Programs that 
+      cause compiler or linker errors will NOT receive any credit. 
+
+  (3) Using the turnin-csi402 program as discussed below is the ONLY
+      acceptable way of submitting programming assignments in 
+      this course.  You should NOT mail the files to the 
+      instructor or to the TAs.
+
+  (5) DON'T turn in unnecessary files (e.g. object files with 
+      extension ".o" created by compiling C source files, 
+      executable files such as "a.out", etc.). 
+
+  Remember that you must submit all the necessary header files (with 
+extension ".h"), all the necessary C source files (with 
+extension ".c") and the makefile.  To submit these files 
+electronically, you would type the following command to the 
+(Unix) operating system:
+
+   /usr/local/bin/turnin-csi402 -c csi402  *.c  *.h  makefile
+
+(We are assuming that your working directory at the time when you
+issue the above command contains only those header files, the C 
+source files and the makefile that you want to submit.)
+
+  After you issue the above command, the system responds with:
+
+    Your files have been submitted to csi402, prog4 for grading.
+
+In the above message, "prog4" refers to the name of the project
+that is currently active. If you submit your program after 11 PM
+on Wednesday, Apr. 13, 2011 (but before 11 PM on Friday, Apr. 15, 
+2011), your submission will go to the project called "prog4-late".
+Attempts to submit the program after 11 PM, Friday, Apr. 15, 2011 
+will fail.
+
+Additional information about the turnin program: 
+------------------------------------------------
+
+ (a) If you use the turnin command above again at a later time
+     (before the deadline), then the files submitted previously would be
+     replaced by the newly submitted files. (This allows you to resubmit
+     a program if the previous submission was erroneous.)
+
+(b) At any time, you can obtain the names of the files that you
+     have submitted to the current project using the following command:
+
+         /usr/local/bin/turnin-csi402 -c csi402 -v

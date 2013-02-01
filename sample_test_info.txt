@@ -1,0 +1,19 @@
+Information about sample inputs for Program IV
+----------------------------------------------
+
+  There are three test cases. The input files for these 
+test cases are called test1.asm, test2.asm and test3.asm.
+
+  Of the three test cases, test1.asm and test2.asm don't contain any
+syntax errors. Thus, your program must produce object files for these
+two inputs. Object files for these two test cases are test1.obj and
+test2.obj respectively.
+
+  The input file test3.asm contains several syntax errors.
+So, your program must produce the corresponding error file.
+The error file for this test case is test3.err.
+
+Note: In obj files, you may print hex digits 'A' through 'F' in upper or
+      lower case. Further, you can also choose to print 4 hex characters for
+      the address (with leading zeros, if necessary) and 8 hex characters
+      for the contents (with leading zeros, if necessary). 

@@ -1,0 +1,16 @@
+  This is file prog4.README in the directory 
+
+          ~csi402/public/prog4
+
+You should also take a careful look at the following 
+additional files in this directory. 
+
+  (1) submission_info.txt: This file explains how you should use
+      the turnin-csi402 program to submit your source files
+      and makefile. It also contains additional specifications
+      for your makefile.
+
+  (2) sample_test_info.txt: This file provides information
+      about three sample test cases for this program. (The files 
+      needed for the test cases are test1.asm, test2.asm, test3.asm, 
+      test1.obj, test2.obj and test3.err.)
